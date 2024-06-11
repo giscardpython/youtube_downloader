@@ -2,7 +2,7 @@ from pytube import YouTube
 from pytube.cli import on_progress # importa barra de progresso
 
 def salvar_video(link_do_video):
-    print('Iniciando download...')
+    print('Iniciando download do vídeo...')
 
     try:
         yt = YouTube(link_do_video, on_progress_callback=on_progress) # captura o caminho do vídeo do youtube e exibe a barra de progresso
