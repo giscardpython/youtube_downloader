@@ -16,7 +16,7 @@ def salvar_video(link_do_video):
 
 if __name__ == "__main__":
     while True:
-        link_do_video = input('Informe o link do YouTube para baixar ou aperte Enter para encerrar o progarma: ')
+        link_do_video = input('Informe o link do YouTube para baixar ou aperte Enter para encerrar o programa: ')
 
         if link_do_video != '':
             print(salvar_video(link_do_video))
